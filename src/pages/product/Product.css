@@ -1,0 +1,73 @@
+.product .container{
+  padding: 50px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.product_imgs{
+  display: flex;
+  padding: 30px;
+  gap: 30px;
+}
+.littleImgs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 30px;
+}
+.littleImgs img{
+  width: 70px;
+  cursor: pointer;
+}
+
+.mainImg img{
+  width: 500px;
+}
+
+.product_info h3, .product_info h1{
+  margin-bottom: 40px;
+}
+
+.type{
+  display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 8px 16px;
+      background: #fff;
+      -webkit-box-shadow: 0px 4px 32px rgba(51, 51, 51, .08);
+      box-shadow: 0px 4px 32px rgba(51, 51, 51, .08);
+      border-radius: 8px;
+      border: 1px solid #fff;
+      font-size: 16px;
+      font-weight: 600;
+      color: #334155;
+      line-height: 22px;
+      -webkit-transition: all .2s ease;
+      transition: all .2s ease;
+      color: #008dff;
+          border-color: #008dff;
+          display: inline-block;
+          margin-bottom: 30px;
+}
+.btns{
+  display: flex;
+  gap: 20px;
+}
+.btns button{
+  padding: 15px 35px;
+  border: 2px solid #008dff;
+  border-radius: 15px;
+  font-size: 18px;
+  transition: all .3s ease;
+  cursor: pointer;
+
+}
+
+.btns button:hover{
+  background-color: #00cd98;
+  color: white;
+}

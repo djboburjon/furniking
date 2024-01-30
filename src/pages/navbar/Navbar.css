@@ -1,0 +1,110 @@
+.nav_top {
+  background-color: #7AC751;
+}
+
+.nav_top .container {
+  padding: 16px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav_top-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav_top-right select {
+  background-color: #7AC751;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.nav_top-right p a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav_top-right .cAccount {
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+}
+
+.nav_top-right .cAccount:hover {
+  border-bottom: 4px dotted black;
+}
+
+.nav_bottom .container {
+  padding: 22px 50px 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_bottom .form {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid #7AC751;
+  outline: none;
+  overflow: hidden;
+}
+
+.nav_bottom input {
+  width: 300px;
+  border: none;
+  outline: none;
+  padding: 14px;
+}
+
+.nav_bottom select {
+  margin-right: 18px;
+  color: #555;
+  outline: none;
+  border: none;
+}
+
+.nav_bottom .search {
+  background-color: #7AC751;
+  color: white;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_bottom .search_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.nav_bottom .infos {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.infos .bag_icon,
+.infos .notif_icon,
+.infos .user_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.infos .shop {
+  position: relative;
+  cursor: pointer;
+  color: black;
+}
+
+.infos .shop span{
+  color: rgb(0, 192, 192);
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: -8px;
+  left: -8px;
+}
